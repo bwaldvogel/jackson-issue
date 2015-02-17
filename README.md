@@ -21,11 +21,9 @@ On Windows:
 
 ### The stacktrace ###
 
-The `H2LobIssueTest.testConcurrentLobModification` fails due to the `Lob not found` exception in H2.
-
 On Travis: [![Build Status](https://travis-ci.org/bwaldvogel/jackson-issue.png?branch=master)](https://travis-ci.org/bwaldvogel/jackson-issue)
 
-
+The `JacksonTest.failingTest` fails:
 ```
 com.fasterxml.jackson.databind.JsonMappingException: Could not resolve type id 'OtherValue' into a subtype of [simple type, class Value]: known type ids = [FirstValue, Value]
  at [Source: {"value":{"@type":"OtherValue","string":"some other value"}}; line: 1, column: 11] (through reference chain: Holder["value"])
