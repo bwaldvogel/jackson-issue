@@ -9,8 +9,8 @@ compileJava.options.encoding = 'UTF-8'
 
 ext {
     title = 'jackson-issue'
-    description = 'Reproducible unit test for Jackson issue'
-    url = ''
+    description = 'Reproducible unit test for jackson-databind issue #708'
+    url = 'https://github.com/FasterXML/jackson-databind/issues/708'
 }
 
 repositories {

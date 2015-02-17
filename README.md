@@ -1,6 +1,6 @@
-# Jackson - "Could not resolve type id" issue #
+# Jackson - ["Could not resolve type id" issue ][jackson-databind-issue] #
 
-Reproducible failing unit test for a Jackson issue when `ObjectMapper.registerSubtypes` is called after the first read/write use of the mapper.
+Reproducible failing unit test for a Jackson issue when `ObjectMapper.registerSubtypes` is called after the first read/write use of the mapper: [jackson-databind issue #708][jackson-databind-issue]
 
 ## Howto ##
 
@@ -69,3 +69,5 @@ com.fasterxml.jackson.databind.JsonMappingException: Could not resolve type id '
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
 
 ```
+
+jackson-databind-issue: https://github.com/FasterXML/jackson-databind/issues/708
