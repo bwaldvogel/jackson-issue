@@ -70,4 +70,4 @@ com.fasterxml.jackson.databind.JsonMappingException: Could not resolve type id '
 
 ```
 
-jackson-databind-issue: https://github.com/FasterXML/jackson-databind/issues/708
+[jackson-databind-issue]: https://github.com/FasterXML/jackson-databind/issues/708
